@@ -1,0 +1,741 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Hotel Billing System
+</name>
+</assembly>
+<members>
+<member name="T:Hotel_Billing_System.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Hotel_Billing_System.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Hotel_Billing_System.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet.TB_Item_MaterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet.TB_Item_MaterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet.TB_Item_MaterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TB_Item_MaterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4.TB_Order_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4.TB_Order_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4.TB_Order_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TB_Order_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5.TB_Order_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5.TB_Order_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5.TB_Order_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TB_Order_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillingDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillingDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillingDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillingDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillingDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecords">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecords.TB_Bill_RecordsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecords.TB_Bill_RecordsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecords.TB_Bill_RecordsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecordsTableAdapters.TB_Bill_RecordsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillRecords,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillRecords,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillRecords,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillRecords)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillRecordsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReports">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReports.TB_Bill_RecordsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReports.TB_Bill_RecordsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReports.TB_Bill_RecordsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReportsTableAdapters.TB_Bill_RecordsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DB_BillReports,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DB_BillReports,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DB_BillReports,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DB_BillReports)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DB_BillReportsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_Menu">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_Menu.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_Menu.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_Menu.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_MenuTableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.DS_Menu,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.DS_Menu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.DS_Menu,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.DS_Menu)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.DS_MenuTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDS.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDS.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDS.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDSTableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.MenuDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.MenuDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.MenuDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.MenuDS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.MenuDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DS.TB_Item_MasterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DS.TB_Item_MasterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DS.TB_Item_MasterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DSTableAdapters.TB_Item_MasterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Billing_System.Menu_DS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Billing_System.Menu_DS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Billing_System.Menu_DS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.UpdateAll(Hotel_Billing_System.Menu_DS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Hotel_Billing_System.Menu_DSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
